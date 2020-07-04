@@ -1,2 +1,2 @@
 # php-garmin-connect-api
-Garmin connection library
+PHP library to connect and use garmin wellness api
