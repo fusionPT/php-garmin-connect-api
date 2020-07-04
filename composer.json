@@ -1,5 +1,5 @@
 {
-    "name": "fusionPT/php-garmin-connect-api",
+    "name": "fusionpt/php-garmin-connect-api",
     "type": "library",
     "description": "PHP library to connect and use garmin wellness api",
     "keywords": ["Garmin","php","api"],
