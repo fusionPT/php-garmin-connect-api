@@ -1,13 +1,26 @@
 {
     "name": "fusionpt/php-garmin-connect-api",
-    "type": "library",
     "description": "PHP library to connect and use garmin wellness api",
-    "keywords": ["Garmin","php","api"],
-    "homepage": "https://trainerplan.co",
+    "type": "library",
+    "version": "1.6",
+    "require": {
+        "league/oauth1-client": "*"
+    },
     "license": "MIT",
     "authors": [
         {
             "name": "Bruno Felicio"
         }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fusionpt\\GarminApi\\": "src/"
+        }
+    },
+    "keywords": [
+        "garmin",
+        "api",
+        "garmin-connect",
+        "php"
     ]
 }
